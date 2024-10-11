@@ -32,7 +32,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        # Disabling clones is recommended for improving the reporting
+        # Disabling clones is recommended
         fetch-depth: 0
     - name: Official SonarQube Scan
       uses: SonarSource/sonarqube-scan-action@v2.3.0
